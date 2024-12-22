@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'CustomFont';
+      src: url('./assets/Fotn1.woff') format('woff'),
+           url('./assets/Font2.woff') format('woff'),
+           url('./assets/font3.woff') format('woff');
+           font-weight: normal;
+           font-style: normal;
+    }
+    
+    }
