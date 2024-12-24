@@ -42,7 +42,7 @@ function HeroSection() {
               <div className="taground w-5 h-5 bg-zinc-100 rounded-full"></div>
               <div
                 ref={tagInfo}
-                className={`tagInfo  hidden group-hover:inline-block absolute rounded-sm w-[10vw] ${index === 4 ? "right-[0vw]":"0"} transition-all  bg-zinc-100 p-2 text-black font-["Uxum_Grotesque"] mt-3`}
+                className={`tagInfo  hidden group-hover:inline-block absolute rounded-sm w-[10vw] ${index === 4 ? "right-[0vw]":"0"} transition-all  bg-zinc-100 p-2 text-black font-Uxum_Grotesque mt-3`}
               >
                 <h2 className="text-[0.9vw] font-semibold ">{tag.title}</h2>
                 <p className="text-[0.9vw] opacity-50 ">{tag.price}</p>
@@ -52,8 +52,8 @@ function HeroSection() {
         </div>
         <div className="w-full heroTexts flex items-center justify-between absolute bottom-0 text-white mb-[3vw] ">
           <div className="herotex1 leading-[1] px-10 ">
-            <h1 className="text-[5vw] font-['Neue_Haas_Grotesk_Display_Pro'] font-normal"><span className="font-['Parabole']">E</span>mbrace what</h1>
-            <h1 className="text-[5vw] font-['Neue_Haas_Grotesk_Display_Pro'] font-normal">makes You — <span className="font-['Parabole']">Y</span>ou</h1>
+            <h1 className="text-[5vw] font-Neue_Haas_Grotesk_Display_Pro font-normal"><span className="font-Parabole">E</span>mbrace what</h1>
+            <h1 className="text-[5vw] font-Neue_Haas_Grotesk_Display_Pro font-normal">makes You — <span className="font-Parabole">Y</span>ou</h1>
           </div>
           <button className="border border-white w-[10vw] h-[3vw] rounded-sm mr-6">Discover Now</button>
         </div>

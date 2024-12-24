@@ -33,7 +33,7 @@ function FaQs() {
   return (
     <>
     <div className='w-full min-h-[80vh]  px-10 py-10'>
-        <h1 className='font-["Uxum_Grotesque"] text-[#292929] text-[3.5vw]'><span className='font-["Parabole"]'>F</span>requently <span className='font-["Parabole"]'>A</span>sked <span className='font-["Parabole"]'>Q</span>uestions</h1>
+        <h1 className='font-Uxum_Grotesque text-[#292929] text-[3.5vw]'><span className='font-Parabole'>F</span>requently <span className='font-Parabole'>A</span>sked <span className='font-Parabole'>Q</span>uestions</h1>
         <div className='faqs w-full  '>
             {faqs.map((item)=>(
                 <motion.div 
@@ -45,7 +45,7 @@ function FaQs() {
                     duration: 0.5, // Animation duration in seconds
                     ease: "easeInOut", // Easing function for smoothness
                   }}
-                key={item.id} className='fqs-container cursor-pointer border-t border-b font-["Uxum_Grotesque"] text-[#292929] py-5  h-[4.5vw] mt-2 overflow-hidden '>
+                key={item.id} className='fqs-container cursor-pointer border-t border-b font-Uxum_Grotesque text-[#292929] py-5  h-[4.5vw] mt-2 overflow-hidden '>
                     <motion.span 
                            // Pass the current item's ID
                           animate={{

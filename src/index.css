@@ -4,12 +4,16 @@
 
 @layer base {
     @font-face {
-      font-family: 'CustomFont';
-      src: url('./assets/Fotn1.woff') format('woff'),
-           url('./assets/Font2.woff') format('woff'),
-           url('./assets/font3.woff') format('woff');
-           font-weight: normal;
-           font-style: normal;
+      font-family: 'Neue_Haas_Grotesk_Display_Pro';
+      src: url('/Fonts/font3.woff') format('woff')
+    }
+    @font-face {
+      font-family: 'Uxum_Grotesque';
+      src: url('/Fonts/Font1.woff') format('woff')
+    }
+    @font-face {
+      font-family: 'Parabole';
+      src: url('/Fonts/Font2.woff') format('woff')
     }
     
     }

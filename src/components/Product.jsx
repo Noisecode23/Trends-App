@@ -76,8 +76,8 @@ function Product() {
             {products1.map((product, index)=>(
               <div key={index} className='ImageContent relative'>
                 <img src={`${product.Image}`} alt="" />
-                <p className='absolute top-[3vw] px-10 py-5 text-white font-["Uxum_Grotesque"] font-semibold uppercase text-[0.9vw]  '>{product.title}</p>
-                <button className={`w-[40vw] left-[5vw]  absolute ${product.id === 1 ? "bottom-[20vw]":"bottom-[18vw]"} p-5 font-semibold font-["Uxum_Grotesque"] text-[0.8vw] text-black bg-zinc-100`}>Shop now</button>
+                <p className='absolute top-[3vw] px-10 py-5 text-white font-Uxum_Grotesque font-semibold uppercase text-[0.9vw]  '>{product.title}</p>
+                <button className={`w-[40vw] left-[5vw]  absolute ${product.id === 1 ? "bottom-[20vw]":"bottom-[18vw]"} p-5 font-semibold font-Uxum_Grotesque text-[0.8vw] text-black bg-zinc-100`}>Shop now</button>
               </div>
             ))}
           </div>
@@ -85,8 +85,8 @@ function Product() {
           {products2.map((product, index)=>(
               <div key={index} className='ImageContent relative'>
                 <img src={`${product.Image}`} alt="" />
-                <p className='absolute top-[3vw] px-10 py-5 text-white font-["Uxum_Grotesque"] font-semibold uppercase text-[0.9vw]  '>{product.title}</p>
-                <button className={`w-[40vw] left-[5vw]  absolute ${product.id === 1 ? "bottom-[20vw]":"bottom-[5vw]"} p-5 font-semibold font-["Uxum_Grotesque"] text-[0.8vw] text-black bg-zinc-100`}>Shop now</button>
+                <p className='absolute top-[3vw] px-10 py-5 text-white font-Uxum_Grotesque font-semibold uppercase text-[0.9vw]  '>{product.title}</p>
+                <button className={`w-[40vw] left-[5vw]  absolute ${product.id === 1 ? "bottom-[20vw]":"bottom-[5vw]"} p-5 font-semibold font-Uxum_Grotesque text-[0.8vw] text-black bg-zinc-100`}>Shop now</button>
               </div>
             ))}
           </div>

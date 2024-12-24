@@ -27,11 +27,11 @@ function Footer() {
           src="https://cdn.prod.website-files.com/663927f94f5472bc912b2130%2F669a774a3703b1fcd221603a_DNA%20Motion%20FullHD-transcode.mp4"
         ></video>
         <div className="absolute top-0">
-          <h2 className=' text-white text-[3vw] font-["Uxum_Grotesque"] leading-[1.2] w-[55%] ml-6 mt-6'>
+          <h2 className=' text-white text-[3vw] font-Uxum_Grotesque leading-[1.2] w-[55%] ml-6 mt-6'>
             Embrace the essence of Le Flair Studios and become a part of a
             movement that celebrates individuality.
           </h2>
-          <button className=' text-white font-["Uxum_Grotesque"] border  w-[10%] rounded-sm font-thin text-[0.9vw] ml-6 mt-5   px-10 py-5  '>
+          <button className=' text-white font-Uxum_Grotesque border  w-[10%] rounded-sm font-thin text-[0.9vw] ml-6 mt-5   px-10 py-5  '>
             Shop all
           </button>
         </div>
@@ -43,7 +43,7 @@ function Footer() {
               alt=""
             />
           </div>
-          <div className='main flex mt-[6vw] font-["Uxum_Grotesque"] text-white'>
+          <div className='main flex mt-[6vw] font-Uxum_Grotesque text-white'>
             {data.map((item) => {
               return (
                 <div className="footer-Container w-1/2 border-dotted border  p-5">
@@ -55,7 +55,7 @@ function Footer() {
               );
             })}
           </div>
-          <div className='main2 flex justify-between mt-[2vw]  font-["Uxum_Grotesque"] text-white px-10 py-20 '>
+          <div className='main2 flex justify-between mt-[2vw]  font-Uxum_Grotesque text-white px-10 py-20 '>
             <div>
               <h3>Menu</h3>
               <div className="mt-[3vw]">
@@ -100,7 +100,7 @@ function Footer() {
               })}
             </div>
           </div>
-          <div className="main3 w-full flex font-['Neue_Haas_Grotesk_Display_Pro'] text-white justify-between border-t border-dotted px-10 py-5">
+          <div className="main3 w-full flex font-Neue_Haas_Grotesk_Display_Pro text-white justify-between border-t border-dotted px-10 py-5">
             <h3 className="font-semibold text-[0.8vw]">Le Flair Studios</h3>
             <h3 className="font-semibold text-[0.8vw]">&copy; 2024 All right are Reserved.</h3>
           </div>

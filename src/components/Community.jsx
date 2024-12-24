@@ -44,7 +44,7 @@ function Community() {
     <>
     <div className='w-full min-h-screen bg-zinc-100 flex'>
         <div className='left w-1/2  px-10 py-20  '>
-        <h3 className='font-["Uxum_Grotesque"] font-medium text-[4vw] text-[#292929]'><span className='font-["Parabole"]'>J</span>oin the <span className='font-["Parabole"]'>C</span>ommunity</h3>
+        <h3 className='font-Uxum_Grotesque font-medium text-[4vw] text-[#292929]'><span className='font-Parabole'>J</span>oin the <span className='font-Parabole'>C</span>ommunity</h3>
         <p className='w-[30vw]'>At Le Flair Studios, we believe that everyone has their own unique flair a special something that differentiates you from everyone else. It is in your DNA, and we want you to magnify it, not erase it.</p>
         <button className='border mt-[1vw] bg-[#3400D0] font-semibold w-[30%] rounded-md text-[0.9vw] text-white px-10 py-5 '>About us</button>
         </div>
